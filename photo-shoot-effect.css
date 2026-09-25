@@ -89,6 +89,30 @@ nav ul a[title="sweet tabs"] {
   text-transform: none;
 }
 
-nav,article, nav ul li a,figure {
+nav,article, nav ul li a, figure {
   border-radius: 10px;
 }
+
+article {
+  background-color: #213E4A;
+  margin: 0 0 10px;
+  padding: 20px;
+  height: 390px;
+}
+
+figure {
+  border: 3px solid #142830;
+  float: right;
+  height: 300px;
+  width: 500px;
+  margin-left: 15px;
+}
+
+footer {
+  border-top: 3px solid #142830;
+  padding-top: 15px;
+  margin-bottom: 30px;
+  text-align: center;
+  font-size: 20px;
+}
+
