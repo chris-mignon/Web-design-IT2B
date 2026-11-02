@@ -1,89 +1,52 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My First JavaScript Website</title>
-    
-    <!-- Meta Description for SEO -->
-     <!-- The meta description provides a brief summary of the page content for search engines. -->
-    <meta name="description" content="A modern, responsive HTML starter template.">
-    <!-- Meta Keywords for SEO  - The meta keywords help search engines understand the main topics of the page.-->
-    <meta name="keywords" content="HTML, CSS, JavaScript, Responsive Design, Starter Template">
-    <!-- Meta Author for SEO -->
-    <meta name="author" content="Your Name">
-    <!-- External CSS link -->
-    <link rel="stylesheet" href="css/styles.css">    
-</head>
-<body>
+<html>
+    <head>
+        <!-- Developer: (your name) 
+        	Start Date: (today's date) -->
+        <title>An Adequate Calculator</title>
+		<link rel="stylesheet" type="text/css" href="css/calculator.css" media="screen" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		
+    </head>
+    <body>
+		<header>
+			<h1>
+    			A Basic Calculator
+    		</h1>
+		</header>
+		<section>
+			<div id="calculator">
+				<div id="display_container">
+					<input type="text" id="display" name="display" placeholder="0">
+					<input type="hidden" id="memory" name="memory">
+				</div>
+				<div id="inputs" class="keypad">
+					<input type="button" id="C" name="C" value="C" >
+					<input type="button" id="sign_switch" name="sign_switch" value="+/-">
+					<input type="button" id="percent" name="percent" value="%" >
+					<input type="button" id="divide" name="divide" value="/">
+					<input type="button" id="7" name="7" value="7" >
+					<input type="button" id="8" name="8" value="8" >
+					<input type="button" id="9" name="9" value="9" >
+					<input type="button" id="multiply" name="multiply" value="*" >
+					<input type="button" id="4" name="4" value="4" >
+					<input type="button" id="5" name="5" value="5" >
+					<input type="button" id="6" name="6" value="6" >
+					<input type="button" id="subtract" name="subtract" value="-" >
+					<input type="button" id="1" name="1" value="1" >
+					<input type="button" id="2" name="2" value="2" >
+					<input type="button" id="3" name="3" value="3" >
+					<input type="button" id="add" name="add" value="+" >
+					<input type="button" id="0" name="0" value="0" >
+					<input type="button" id="." name="." value="." >
+					<input type="button" id="Mem" name="Mem" value="M">
+					<input type="button" id="equals" name="equals" value="=" >
+				</div>
+			</div>
+		</section>
 
-    <!-- Header / Nav -->
-    <header>
-        <div class="container">
-            <div class="logo">
-                <h2>Your name or brand </h2>
-            </div>
-
-            <!-- CSS-only toggle: the hidden checkbox holds the open/closed state,
-                 the label is the visible hamburger, and :checked ~ nav opens the drawer 
-                 THIS IS A CSS-ONLY SOLUTION ,ONLY USED FOR CLASS -->
-            <input type="checkbox" id="menu-checkbox" class="menu-checkbox" aria-label="Toggle Navigation" aria-controls="navbar">
-            <label for="menu-checkbox" class="menu-toggle" aria-hidden="true">
-                <span></span>
-                <span></span>
-                <span></span>
-            </label>
-
-            <!-- Navigation Menu  -->
-            <nav id="navbar">
-                <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Articles</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Contact</a></li>
-                </ul>
-            </nav>
-        </div>
-    </header>
-
-    <!-- Main Dynamic Content Wrapper -->
-    <div class="container content-wrapper">
-
-        <main>
-            <article>
-                <img onclick="changePic1()" id="img1" src="https://picsum.photos/1200/600?random=1" alt="Placeholder Image" width="1200" height="600" loading="lazy">
-                <h2 id="title1">Featured Article Title</h2>
-                <div class="article-meta">Published on October 22, 2026</div>
-                <p id="content1">lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-            </article>
-
-            <article>
-                <img src="https://picsum.photos/1200/600?random=2" alt="Content Graphic" width="1200" height="600" loading="lazy">
-                <h2 id="title2">Secondary Article Title</h2>
-                <div class="article-meta">Published on October 21, 2026</div>
-                <p>lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-            </article>
-        </main>
-
-        <aside>
-            <img src="https://picsum.photos/800/600?random=3" alt="Sidebar Graphic" width="800" height="600" loading="lazy">
-            <h3 id="title3">Sidebar Widget</h3>
-            <p>lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-        </aside>
-
-    </div>
-
-    <!-- Footer -->
-    <footer>
-        <div class="container">
-            <p>&copy; 2026 Name or brand. All rights reserved.</p>
-        </div>
-    </footer>
-
-<!--    Add javascript code here-->
-    <script src="js/script.js"></script> 
-    
-
-    </script>
-</body>
+		<footer>
+			Copyright &copy; 2026 
+		</footer>
+    </body>
 </html>

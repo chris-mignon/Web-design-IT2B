@@ -1,3 +1,3 @@
-# Web-design-IT2B 
+# Web-design-IT2A 
 
 A repo to hold practice projects
